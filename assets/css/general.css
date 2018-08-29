@@ -1,3 +1,25 @@
-offset-top {
-	margin-top: 65px;
+.offset-top {
+	margin-top: 70px;
+}
+
+.footer-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+#footer {
+  flex-shrink: 0;
 }
